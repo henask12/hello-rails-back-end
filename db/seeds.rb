@@ -7,3 +7,10 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+
+Message.create(content: 'Hello, world!')
+Message.create(content: 'Welcome to the app!')
+Message.create(content: 'Greetings from Rails and React!')
+Message.create(content: 'Have a great day!')
+Message.create(content: 'Goodbye!')
